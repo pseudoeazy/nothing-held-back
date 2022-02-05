@@ -1,0 +1,147 @@
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .page-container {
+    max-width: 100%;
+  }
+
+  .topbar-cta {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 4px;
+  }
+
+  .top-menu > * + * {
+    margin-top: 10px;
+  }
+
+  .search-bar {
+    margin-left: 0px;
+  }
+  .menu > li:first-of-type {
+    margin-left: 38px;
+  }
+
+  .aside {
+    margin: auto;
+    order: 1;
+  }
+  .main {
+    padding: 4px;
+  }
+
+  .footer-menu > ul {
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+  }
+  .footer-socials {
+    width: 80%;
+    flex-direction: column;
+  }
+  .footer-socials > * + * {
+    margin-top: 16px;
+  }
+  .footer-socials-icons {
+    flex-direction: column;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .page-container {
+    max-width: 960px;
+  }
+
+  .topbar-cta {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 4px;
+  }
+  .top-menu > * + * {
+    margin-top: 10px;
+  }
+
+  .search-bar > [type="search"] {
+    width: 380px;
+  }
+  .menu {
+    align-items: center;
+  }
+  .menu > li:first-of-type {
+    margin-left: 38px;
+  }
+  .aside {
+    margin: auto;
+    order: 1;
+  }
+  .main {
+    padding: 4px;
+  }
+  .footer {
+    padding: 4px;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .page-container {
+    max-width: 1440px;
+  }
+  .topbar {
+    height: 49px;
+  }
+
+  .topbar-cta {
+    flex-direction: row;
+  }
+
+  .topbar-cta > span:last-of-type {
+    width: 466.05px;
+    height: 23px;
+  }
+
+  .top-menu {
+    align-items: center;
+    flex-direction: row;
+  }
+
+  /*top-sub-menu*/
+  .top-sub-menu {
+    margin-left: 30px;
+  }
+  .search-bar {
+    margin-left: 34.62px;
+  }
+  .search-bar > [type="search"] {
+    width: 380px;
+  }
+  .menu {
+    flex-direction: row;
+  }
+  .main-container {
+    flex-direction: row;
+  }
+  .main {
+    width: 841px;
+  }
+  .feature-desc-meta section:nth-child(2) {
+    width: 844px;
+  }
+  .resources-files {
+    width: 837px;
+  }
+  .mastermind {
+    height: 325.09px;
+  }
+  .mastermind p {
+    width: 678.49px;
+  }
+  .footer-socials-icons span:first-of-type {
+    margin-right: 20px;
+  }
+  .footer {
+    padding: 4px;
+  }
+}

@@ -16,25 +16,27 @@ button {
 }
 
 .page-container {
-  max-width: 1440px;
   margin: auto;
 }
 
 /**top header bar**/
 .topbar {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 49px;
   background: #2478cc;
   border-radius: 0px;
 }
 .topbar-cta {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .topbar-cta > span:last-of-type {
-  width: 466.05px;
-  height: 23px;
+  width: 300.05px;
+
   margin-left: 14.63px;
   font-family: Roboto;
   font-style: normal;
@@ -79,8 +81,10 @@ button {
 /**top menu **/
 .top-menu {
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
+
 .logo {
   width: 268.76px;
   height: 30.72px;
@@ -113,11 +117,9 @@ button {
   color: #f4af32;
 }
 /**search bar**/
-.search-bar {
-  margin-left: 34.62px;
-}
+
 .search-bar > [type="search"] {
-  width: 380px;
+  width: 280px;
   height: 32px;
   padding: 9.12px 20px;
   border-radius: 4px;
@@ -125,9 +127,7 @@ button {
   background: #f4f4f4 url("./assets/search-icon.svg") no-repeat 9.12px center;
 }
 /*top-sub-menu*/
-.top-sub-menu {
-  margin-left: 30px;
-}
+
 .top-sub-menu ul {
   display: flex;
   list-style-type: none;
@@ -212,6 +212,7 @@ button {
 
 .menu {
   display: flex;
+  flex-direction: column;
   list-style-type: none;
   font-family: Roboto;
   font-style: normal;
@@ -241,6 +242,7 @@ button {
 /*main-container*/
 .main-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   padding-top: 24px;
 }
@@ -556,7 +558,7 @@ div.seven-day-title {
 
 /*main*/
 .main {
-  width: 841px;
+  width: 100%;
 }
 .hero-banner h2 {
   font-family: Poppins;
@@ -673,7 +675,6 @@ div.seven-day-title {
 }
 
 .feature-desc-meta section:nth-child(2) {
-  width: 844px;
   margin-top: 16px;
 }
 .feature-desc-meta section:nth-child(2) p {
@@ -914,7 +915,6 @@ div.seven-day-title {
   flex-direction: column;
   align-items: flex-start;
   padding: 16px 21px;
-  width: 837px;
   background: #ffffff;
   box-shadow: 0px 0px 1px rgba(12, 26, 75, 0.24),
     0px 3px 8px -1px rgba(50, 50, 71, 0.05);
@@ -984,7 +984,6 @@ div.seven-day-title {
   align-items: center;
   padding: 32px 84px;
   width: 100%;
-  height: 325.09px;
   margin-top: 88px;
   background: #ffffff;
   border: 1px solid #49a55d;
@@ -1013,7 +1012,6 @@ div.seven-day-title {
   color: #000000;
 }
 .mastermind p {
-  width: 678.49px;
   margin-top: 24px;
   font-family: Roboto;
   font-style: normal;
